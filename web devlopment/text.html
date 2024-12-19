@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Greeting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="question-container" id="questionContainer">
+        <h1 id="question">What's your name?</h1>
+        <input type="text" id="answerInput" placeholder="Enter your answer">
+        <button onclick="nextQuestion()">Next</button>
+    </div>
+    <div class="container" id="animationContainer" style="display: none;">
+        <div class="content">
+            <h1 class="final-message" id="finalMessage"></h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
